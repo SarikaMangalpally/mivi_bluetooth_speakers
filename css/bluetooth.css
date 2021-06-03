@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.product-color-input {
+  @apply absolute top-1 right-0 left-0 m-auto w-6 h-6 rounded-full z-10 opacity-0;
+}
+.product-color-input:checked ~ .product-color-label {
+  @apply border-radio-green border-2 rounded-full w-8 h-8;
+}
+.product-color-input:checked ~ .product-color-label::before {
+  @apply absolute top-3 right-0.5 z-20;
+  content: url("/assets/Vector 5.png");
+}
+.product-color-input:checked ~ .product-color-label::after {
+  @apply absolute -bottom-0.25 right-0 w-4 h-4 rounded-full bg-radio-green z-10;
+  content: " ";
+}
