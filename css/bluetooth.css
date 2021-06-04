@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 .product-color-input {
-  @apply absolute top-1 right-0 left-0 m-auto w-6 h-6 rounded-full z-10 opacity-0;
+  @apply absolute top-1 right-0 left-0 m-auto w-6 h-6 md:w-8 md:h-8 rounded-full z-10 opacity-0;
 }
 .product-color-input:checked ~ .product-color-label {
-  @apply border-radio-green border-2 rounded-full w-8 h-8;
+  @apply border-radio-green border-2 rounded-full w-8 h-8 md:w-10 md:h-10;
 }
 .product-color-input:checked ~ .product-color-label::before {
-  @apply absolute top-3 right-0.5 z-20;
+  @apply absolute top-3 right-0.5 z-20 md:top-5;
   content: url("/assets/Vector 5.png");
 }
 .product-color-input:checked ~ .product-color-label::after {

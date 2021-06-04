@@ -3,6 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+
+      gridTemplateRows: {
+        '6': 'repeat(6, minmax(0 , auto))'
+      },
+      maxWidth: {
+        "2lg": "1180px"
+      },
       inset:{
         "-0.25": "-0.0625rem"
       },
@@ -15,8 +22,14 @@ module.exports = {
       spacing: {
         "15": "3.75rem"
       },
+      width: {
+        '15': "3.6425rem",
+        "9.7":"2.375rem",
+        '12.2': "3.125rem"
+      },
       height: {
-        "1.7": "0.4rem"
+        "1.7": "0.4rem",
+        '12.2': "3.125rem"
       },
       colors: {
         "radio-green": "#00FF00",
@@ -37,6 +50,7 @@ module.exports = {
           "dark": "#A81F1F"
         },
         meroon: {
+          "dark": "#962C25",
           "light": "#9B316A"
         },
         "sea-green": {
