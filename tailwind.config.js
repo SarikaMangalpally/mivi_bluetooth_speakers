@@ -25,11 +25,14 @@ module.exports = {
       width: {
         '15': "3.6425rem",
         "9.7":"2.375rem",
-        '12.2': "3.125rem"
+        '12.2': "3.125rem",
+        "7.5": "1.8475rem",
+        "45": "11.375rem"
       },
       height: {
         "1.7": "0.4rem",
-        '12.2': "3.125rem"
+        '12.2': "3.125rem",
+        "66": "16.6875rem"
       },
       colors: {
         "radio-green": "#00FF00",
@@ -40,6 +43,7 @@ module.exports = {
           DEFAULT: "#000000"
         },
         ash: {
+          lighter: "#F6F7F9",
           light: "#C8C4BE"
         },
         blue: {
