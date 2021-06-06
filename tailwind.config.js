@@ -30,7 +30,7 @@ module.exports = {
         "9.7":"2.375rem",
         '12.2': "3.125rem",
         "7.5": "1.8475rem",
-        "45": "11.375rem",
+        "73": "18.0625rem",
         "78": "19.394rem"
       },
       height: {
@@ -48,6 +48,7 @@ module.exports = {
           DEFAULT: "#000000"
         },
         ash: {
+          lightest: "#F6F6F7",
           lighter: "#F6F7F9",
           light: "#C8C4BE"
         },
