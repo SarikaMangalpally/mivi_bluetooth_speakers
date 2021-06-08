@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: theme => ({
+        "strong-base": "url('/assets/background_strong_base.png')"
+      }),
       zIndex: {
         "-1": "-1"
       },
@@ -70,31 +73,34 @@ module.exports = {
           dark: "#1512A7"
         },
         red: {
-          "dark": "#A81F1F"
+          dark: "#A81F1F"
         },
         meroon: {
-          "dark": "#962C25",
-          "light": "#9B316A"
+          dark: "#962C25",
+          light: "#9B316A"
         },
         "sea-green": {
-          "medium": "#36A692",
+          medium: "#36A692",
         },
-        "green": {
-          "medium": "#739B31",
+        green: {
+          medium: "#739B31",
           light: "#0EFA6C",
-          "dark": "#12AB14"
+          dark: "#12AB14"
         },
-        "mustard": {
-          "medium": "#A89A1F"
+        mustard: {
+          medium: "#A89A1F"
         },
-        "orange": {
-          "medium": "#9B8431"
+        orange: {
+          light: "#FFA663",
+          medium: "#9B8431"
         },
         yellow: {
           light: "#FFCF24",
           lighter: "#FFECA9",
           lightest: "#FFCF240",
-          
+        },
+        "pale-yellow": {
+          light: "#FAFF1B",
         }
       }
     },
