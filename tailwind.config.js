@@ -3,7 +3,6 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-
       gridTemplateRows: {
         '6': 'repeat(6, minmax(0 , auto))'
       },
@@ -22,6 +21,9 @@ module.exports = {
       spacing: {
         "15": "3.75rem"
       },
+      letterSpacing: {
+        "ultra-wide": "0.32rem"
+      },
       fontSize: {
         "2.5xl": "1.75rem"
       },
@@ -30,6 +32,7 @@ module.exports = {
         "9.7":"2.375rem",
         '12.2': "3.125rem",
         "15": "3.75rem",
+        "25": "6.25rem",
         "7.5": "1.8475rem",
         "73": "18.0625rem",
         "78": "19.394rem"
@@ -40,6 +43,7 @@ module.exports = {
         "8.3": "2.1144rem",
         "12.2": "3.125rem",
         "15": "3.75rem",
+        "25": "6.25rem",
         "66": "16.6875rem",
         "82": "21.9rem"
       },
@@ -78,6 +82,12 @@ module.exports = {
         },
         "orange": {
           "medium": "#9B8431"
+        },
+        yellow: {
+          light: "#FFCF24",
+          lighter: "#FFECA9",
+          lightest: "#FFCF240",
+          
         }
       }
     },
