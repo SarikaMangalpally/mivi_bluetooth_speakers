@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      zIndex: {
+        "-1": "-1"
+      },
       gridTemplateRows: {
         '6': 'repeat(6, minmax(0 , auto))'
       },
@@ -22,6 +25,7 @@ module.exports = {
         "15": "3.75rem"
       },
       letterSpacing: {
+        "ultra": "0.25rem",
         "ultra-wide": "0.32rem"
       },
       fontSize: {
@@ -53,7 +57,8 @@ module.exports = {
           light: "#191723",
           lighter: "#3D3934",
           lighest: "#4B4955",
-          DEFAULT: "#000000"
+          DEFAULT: "#000000",
+          dark: "#1C1B20"
         },
         ash: {
           lightest: "#F6F6F7",
@@ -75,7 +80,9 @@ module.exports = {
           "medium": "#36A692",
         },
         "green": {
-          "medium": "#739B31"
+          "medium": "#739B31",
+          light: "#0EFA6C",
+          "dark": "#12AB14"
         },
         "mustard": {
           "medium": "#A89A1F"
