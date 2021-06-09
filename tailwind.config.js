@@ -29,6 +29,9 @@ module.exports = {
         "15": "3.75rem",
         "112": "28rem"
       },
+      padding: {
+        "2.2": "0.533rem"
+      },
       letterSpacing: {
         "ultra": "0.225rem",
         "ultra-wide": "0.32rem"
@@ -100,7 +103,8 @@ module.exports = {
         },
         orange: {
           light: "#FFA663",
-          medium: "#9B8431"
+          medium: "#9B8431",
+          dark: "#FC852A"
         },
         yellow: {
           light: "#FFCF24",
