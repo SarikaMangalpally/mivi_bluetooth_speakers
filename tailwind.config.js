@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        "strong-base": "url('/assets/background_strong_base.png')"
+        "strong-base": "url('/assets/background_strong_base.png')",
+        "strong-base-2": "url('/assets/180426_115327_party 1.png')"
       }),
       zIndex: {
         "-1": "-1"
@@ -61,7 +62,8 @@ module.exports = {
           lighter: "#3D3934",
           lighest: "#4B4955",
           DEFAULT: "#000000",
-          dark: "#1C1B20"
+          dark: "#1C1B20",
+          darker: "#0E171E"
         },
         ash: {
           lightest: "#F6F6F7",
