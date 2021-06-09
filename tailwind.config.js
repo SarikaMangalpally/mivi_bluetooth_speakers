@@ -26,10 +26,11 @@ module.exports = {
         "1/16": "1px"
       },
       spacing: {
-        "15": "3.75rem"
+        "15": "3.75rem",
+        "112": "28rem"
       },
       letterSpacing: {
-        "ultra": "0.25rem",
+        "ultra": "0.225rem",
         "ultra-wide": "0.32rem"
       },
       fontSize: {
@@ -40,7 +41,9 @@ module.exports = {
         "9.7":"2.375rem",
         '12.2': "3.125rem",
         "15": "3.75rem",
+        "22.5": "5.625rem",
         "25": "6.25rem",
+        "30": "7.5rem",
         "7.5": "1.8475rem",
         "73": "18.0625rem",
         "78": "19.394rem"
@@ -51,7 +54,9 @@ module.exports = {
         "8.3": "2.1144rem",
         "12.2": "3.125rem",
         "15": "3.75rem",
+        "22.5": "5.625rem",
         "25": "6.25rem",
+        "30": "7.5rem",
         "66": "16.6875rem",
         "82": "21.9rem"
       },
@@ -87,6 +92,7 @@ module.exports = {
         green: {
           medium: "#739B31",
           light: "#0EFA6C",
+          lighter: "#05DB05",
           dark: "#12AB14"
         },
         mustard: {
