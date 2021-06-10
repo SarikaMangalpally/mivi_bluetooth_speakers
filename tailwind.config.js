@@ -49,6 +49,7 @@ module.exports = {
         "22.5": "5.625rem",
         "25": "6.25rem",
         "30": "7.5rem",
+        "7.4": "1.825rem",
         "7.5": "1.8475rem",
         "7.6": "1.875rem",
         "73": "18.0625rem",
@@ -82,6 +83,7 @@ module.exports = {
           light: "#C8C4BE"
         },
         blue: {
+          lightest: "#BCEFEE",
           light: "#6A88F4",
           dark: "#1512A7"
         },
@@ -93,6 +95,7 @@ module.exports = {
           light: "#9B316A"
         },
         "sea-green": {
+          light: "#58B9B7",
           medium: "#36A692",
         },
         green: {
