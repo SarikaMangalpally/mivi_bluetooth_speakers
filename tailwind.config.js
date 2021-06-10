@@ -14,6 +14,7 @@ module.exports = {
         '6': 'repeat(6, minmax(0 , auto))'
       },
       maxWidth: {
+        "2md": "980px",
         "2lg": "1180px"
       },
       inset:{
@@ -37,7 +38,8 @@ module.exports = {
         "ultra-wide": "0.32rem"
       },
       fontSize: {
-        "2.5xl": "1.75rem"
+        "2.5xl": "1.75rem",
+        "7.5xl": "5rem"
       },
       width: {
         '15': "3.6425rem",
@@ -48,6 +50,7 @@ module.exports = {
         "25": "6.25rem",
         "30": "7.5rem",
         "7.5": "1.8475rem",
+        "7.6": "1.875rem",
         "73": "18.0625rem",
         "78": "19.394rem"
       },
