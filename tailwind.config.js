@@ -14,7 +14,8 @@ module.exports = {
         '6': 'repeat(6, minmax(0 , auto))'
       },
       maxWidth: {
-        "2md": "980px",
+        "2md": "780px",
+        "3md": "980px",
         "2lg": "1180px"
       },
       inset:{
