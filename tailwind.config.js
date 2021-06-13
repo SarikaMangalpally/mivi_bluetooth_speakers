@@ -40,7 +40,6 @@ module.exports = {
       },
       fontSize: {
         "2.5xl": "1.75rem",
-        '4.5xl': "2.5rem",
         "7.5xl": "5rem"
       },
       width: {
