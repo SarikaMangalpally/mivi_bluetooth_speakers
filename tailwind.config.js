@@ -7,7 +7,8 @@ module.exports = {
 
       backgroundImage: theme => ({
         "strong-base": "url('/assets/background_strong_base.png')",
-        "strong-base-2": "url('/assets/180426_115327_party 1.png')"
+        "strong-base-2": "url('/assets/180426_115327_party 1.png')",
+        "product-support": "url('/assets/Rectangle 27.jpg')"
       }),
       zIndex: {
         "-1": "-1"
@@ -86,8 +87,10 @@ module.exports = {
           lightest: "#F6F6F7",
           lighter: "#F6F7F9",
           light: "#C8C4BE",
+          transperant: "#C4C4C4",
           medium: "#E4E8F0",
-          dark: "#DDDEE1"
+          dark: "#DDDEE1",
+          darker: "#808594"
         },
         blue: {
           lightest: "#BCEFEE",

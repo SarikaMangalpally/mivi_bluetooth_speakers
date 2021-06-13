@@ -15,7 +15,8 @@
   @apply absolute -bottom-0.25 right-0 w-4 h-4 rounded-full bg-radio-green z-10;
   content: " ";
 }
-.techincal-specifications-list {
+.techincal-specifications-list,
+.product-support {
   border-style: hidden hidden solid hidden;
 }
 .down-arrow::before {
