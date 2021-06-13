@@ -15,3 +15,13 @@
   @apply absolute -bottom-0.25 right-0 w-4 h-4 rounded-full bg-radio-green z-10;
   content: " ";
 }
+.techincal-specifications-list {
+  border-style: hidden hidden solid hidden;
+}
+.down-arrow::before {
+  @apply border-2 border-radio-green w-3 h-3 absolute;
+  rotate: 45deg;
+  /* -webkit-rotate: 45deg; */
+  border-style: hidden solid solid hidden;
+  content: "";
+}
