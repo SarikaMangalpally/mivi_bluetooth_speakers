@@ -3,6 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      // prefix: 'tw-',
+
       backgroundImage: theme => ({
         "strong-base": "url('/assets/background_strong_base.png')",
         "strong-base-2": "url('/assets/180426_115327_party 1.png')"
