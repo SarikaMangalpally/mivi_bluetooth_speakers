@@ -40,6 +40,7 @@ module.exports = {
       },
       fontSize: {
         "2.5xl": "1.75rem",
+        '4.5xl': "2.5rem",
         "7.5xl": "5rem"
       },
       width: {
@@ -76,12 +77,16 @@ module.exports = {
           lighest: "#4B4955",
           DEFAULT: "#000000",
           dark: "#1C1B20",
-          darker: "#0E171E"
+          darker: "#0E171E",
+          darkest: "#161616"
         },
         ash: {
+          "pich-light": "#F3F3F3",
           lightest: "#F6F6F7",
           lighter: "#F6F7F9",
-          light: "#C8C4BE"
+          light: "#C8C4BE",
+          medium: "#E4E8F0",
+          dark: "#DDDEE1"
         },
         blue: {
           lightest: "#BCEFEE",
