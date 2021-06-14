@@ -13,6 +13,9 @@ module.exports = {
       zIndex: {
         "-1": "-1"
       },
+      gridTemplateColumns: {
+        '3': '0.125fr auto 0.1fr'
+      },
       gridTemplateRows: {
         '6': 'repeat(6, minmax(0 , auto))'
       },
@@ -42,7 +45,8 @@ module.exports = {
       },
       fontSize: {
         "2.5xl": "1.75rem",
-        "7.5xl": "5rem"
+        "7.5xl": "5rem",
+        "7.6xl": "5.625rem"
       },
       width: {
         '15': "3.6425rem",
@@ -81,7 +85,8 @@ module.exports = {
           dark: "#1C1B20",
           darker: "#0E171E",
           darkest: "#161616",
-          "ultra-dark": "#090B10"
+          "ultra-dark": "#090B10",
+          star: "#302E3E"
         },
         ash: {
           "pich-light": "#F3F3F3",
