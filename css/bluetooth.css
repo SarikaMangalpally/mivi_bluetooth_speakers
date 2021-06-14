@@ -17,7 +17,8 @@
 }
 .techincal-specifications-list,
 .product-support,
-.guides-list {
+.guides-list,
+.customer-review-list {
   border-style: hidden hidden solid hidden;
 }
 .down-arrow::before {
