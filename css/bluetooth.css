@@ -16,7 +16,8 @@
   content: " ";
 }
 .techincal-specifications-list,
-.product-support {
+.product-support,
+.guides-list {
   border-style: hidden hidden solid hidden;
 }
 .down-arrow::before {

@@ -31,8 +31,7 @@ module.exports = {
         "1/16": "1px"
       },
       spacing: {
-        "15": "3.75rem",
-        "112": "28rem"
+        "15": "3.75rem"
       },
       padding: {
         "2.2": "0.533rem"
@@ -74,13 +73,15 @@ module.exports = {
       colors: {
         "radio-green": "#00FF00",
         black: {
+          "pich-light": "#292D37",
           light: "#191723",
           lighter: "#3D3934",
           lighest: "#4B4955",
           DEFAULT: "#000000",
           dark: "#1C1B20",
           darker: "#0E171E",
-          darkest: "#161616"
+          darkest: "#161616",
+          "ultra-dark": "#090B10"
         },
         ash: {
           "pich-light": "#F3F3F3",
